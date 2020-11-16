@@ -82,6 +82,12 @@ a {
   opacity: 0.5;
 }
 
+.title {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
 /* フォーム周り */
 .form__wrapper{
   min-height: calc(100vh - 161px);

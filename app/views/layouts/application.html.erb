@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ProtoSpace</title>
+    <title>ayumi_motivate5</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -15,7 +15,8 @@
       <div class="inner">
         <div class="nav">
           <div class="nav__left">
-            <%= link_to image_tag("logo.png", class: :logo), root_path %>
+            <%= link_to image_tag("gettyimages-1164170091-612x612.jpg", class: :logo), root_path %>
+            <%= link_to "#{current_user.name}ちゃんトレーニング頑張ってるね!", user_path(current_user)  %>
           </div>
           <% if user_signed_in? %>
             <div class="nav__right">
